@@ -5,7 +5,7 @@
         <nav class="navbar navbar-expand-md">
         
             <span class="navbar-brand">
-                <img src="/sparksandflames.gr/assets/logo.svg" alt="Sparks & Flames" height="24" class="d-inline-block align-middle">
+                <img src="/sparksandflames.gr/assets/logo.svg" alt="Sparks & Flames" height="24" class="d-inline-block align-text-top">
                 <span class="align-middle">
                     <span class="fw-light">Sparks</span>
                     <span class="fw-bold">& Flames</span>
