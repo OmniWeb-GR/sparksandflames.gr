@@ -64,7 +64,11 @@ body {
     -webkit-text-fill-color: transparent;
     color: var(--bs-primary);
 }
-.text-body {
-    --bs-text-opacity: 1;
-    color: rgba(var(--bs-body-color-rgb),var(--bs-text-opacity));
+a {
+    color: var(--bs-body-color-rgb);
+}
+a:hover {
+    background: var(--webkit-gradient) !important;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
 }
