@@ -73,11 +73,11 @@
             </div>
             <div class="logo text-center">
                 <div class="position-relative">
-                    <img src="https://sparksandflames.gr/assets/bubbles.svg" alt="" class="logo__bubbles animate__animated animate__fadeOut animate__delay-1s">
+                    <img src="https://sparksandflames.gr/assets/bubbles.svg" alt="" id="snd-bubbles" class="logo__bubbles animate__animated animate__fadeOut animate__delay-1s">
                 </div>
                 <div class="position-relative logo__image-container">
-                    <img src="https://sparksandflames.gr/assets/logo.svg" alt="Sparks & Flames" class="logo__image mb-3">
-                    <img src="https://sparksandflames.gr/assets/logo-duplicate.svg" alt="Sparks & Flames" class="position-absolute logo__image start-50 animate__animated animate__fadeOut animate__delay-1s" style="margin-left: -75px;">
+                    <img src="https://sparksandflames.gr/assets/logo.svg" alt="Sparks & Flames" id="logo" class="logo__image mb-3">
+                    <img src="https://sparksandflames.gr/assets/logo-duplicate.svg" id="snd-logo" alt="Sparks & Flames" class="position-absolute logo__image start-50 animate__animated animate__fadeOut animate__delay-1s" style="margin-left: -75px;">
                 </div>
                 <div class="animate__animated animate__fadeInUp animate__delay-3s">
                     <h1 class="text-gradient d-inline-block mb-3">
@@ -241,6 +241,9 @@
                 animatedElements.forEach(function(element) {
                     element.classList.remove('animate__animated');
                 });
+                document.getElementById('snd-bubbles').classList.add('d-none');
+                document.getElementById('snd-logo').classList.add('d-none');
+                document.getElementById('logo').style.marginTop = 'calc(94.29px + 3rem)';
             }
         </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>  
