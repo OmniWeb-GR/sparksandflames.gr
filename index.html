@@ -1,6 +1,13 @@
 <!doctype html>
 <html lang="el">
     <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-07MLZR83FE"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-07MLZR83FE');
+        </script>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Sparks & Flames - Sparks & Flames</title>
@@ -30,6 +37,9 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link d-inline-block" href="/blog">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link d-inline-block" href="#perfumes">Αρώματα</a>
                                     </li>
                                 </ul>
                                 <ul class="nav justify-content-end" style="flex: 1;">
@@ -84,7 +94,7 @@
                 <section class="mb-5 text-center animate__animated animate__fadeInUp animate__delay-4s">
                     <span class="d-inline-block" style="max-width: 600px;">Αρωματικά κεριά υψηλής ποιότητας από 100% φυσικά υλικά καθώς και διάφορα άλλα είδη αρωματισμού του χώρου σας και όχι μόνο... Όλα μας τα προϊόντα είναι χειροποίητα με προσοχή στη λεπτομέρεια.</span>
                 </section>
-                <section class="mb-5 text-center animate__animated animate__fadeInUp animate__delay-5s">
+                <section id="perfumes" class="mb-5 text-center animate__animated animate__fadeInUp animate__delay-5s">
                     <h2 class="mb-4 text-center text-gradient d-inline-block">Αρώματα</h2>
                     <div id="perfumes" class="accordion mx-auto" style="max-width: 440px;">
                         <div class="accordion-item">
@@ -225,6 +235,14 @@
             <span class="text-white d-block">Powered by</span>
             <img src="https://sparksandflames.gr/assets/omniweb.webp" alt="" style="width: 150px;">
         </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>    
+        <script>
+            if (window.location.href.includes('#perfumes')) {
+                const animatedElements = document.querySelectorAll('.animate__animated');
+                animatedElements.forEach(function(element) {
+                    element.classList.remove('animate__animated');
+                });
+            }
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>  
     </body>
 </html>
