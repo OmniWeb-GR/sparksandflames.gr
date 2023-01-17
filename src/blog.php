@@ -1,6 +1,6 @@
 <?php $pageType = 'category'; $title = 'Blog'; ?>
 <!doctype html>
-<html lang="el" style="min-height: 100%;">
+<html lang="el">
     <?php include 'head.php'; ?>
     <body style="min-height: 100%;">
         <?php include 'header.php'; ?>

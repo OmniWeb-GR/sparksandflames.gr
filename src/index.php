@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="el">
     <?php include 'head.php'; ?>
-    <body class="position-relative">
+    <body class="position-relative min-vh-100">
         <?php include 'header.php'; ?>
         <main class="pb-5">
             <div class="container">
