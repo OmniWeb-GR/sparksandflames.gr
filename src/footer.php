@@ -1,4 +1,4 @@
-<footer class="py-4 text-center bg-gradient">
+<footer class="py-4 text-center bg-gradient" style="border-radius: 64px 64px 0 0;">
     <span class="text-white d-block">Powered by</span>
     <img src="/sparksandflames.gr/assets/omniweb.webp" alt="" style="width: 150px;">
 </footer>
