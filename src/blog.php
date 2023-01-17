@@ -4,7 +4,7 @@
     <?php include 'head.php'; ?>
     <body style="min-height: 100%;">
         <?php include 'header.php'; ?>
-        <main>
+        <main class="pb-5">
             <div class="container">
                 <div class="mb-4">
                     <div class="card card--for-gradient bg-gradient border-0">

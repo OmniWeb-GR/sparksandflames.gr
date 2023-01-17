@@ -2,9 +2,9 @@
 <!doctype html>
 <html lang="el">
     <?php include 'head.php'; ?>
-    <body>
+    <body class="position-relative">
         <?php include 'header.php'; ?>
-        <main>
+        <main class="pb-5">
             <div class="container">
                 <section class="mb-5 text-center animate__animated animate__fadeInUp animate__delay-4s">
                     <span class="d-inline-block" style="max-width: 600px;">Αρωματικά κεριά υψηλής ποιότητας από 100% φυσικά υλικά καθώς και διάφορα άλλα είδη αρωματισμού του χώρου σας και όχι μόνο... Όλα μας τα προϊόντα είναι χειροποίητα με προσοχή στη λεπτομέρεια.</span>

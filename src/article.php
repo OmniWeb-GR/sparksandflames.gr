@@ -4,7 +4,7 @@
     <?php include 'head.php'; ?>
     <body style="min-height: 100%;">
         <?php include 'header.php'; ?>
-        <main>
+        <main class="pb-5">
             <div class="container">
                 <div class="row g-3 mb-5">
                     <div class="col-12 col-md-6 order-md-1">
