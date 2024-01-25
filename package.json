@@ -1,0 +1,29 @@
+{
+  "name": "omnitemplate",
+  "version": "1.2022.05.06",
+  "description": "Joomla! generic template",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreaskournoutas/OmniTemplate.git"
+  },
+  "keywords": [
+    "template",
+    "joomla",
+    "joomla-template"
+  ],
+  "author": "OmniWeb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreaskournoutas/OmniTemplate/issues"
+  },
+  "homepage": "https://github.com/andreaskournoutas/OmniTemplate#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.2.0-beta1",
+    "bootstrap-icons": "^1.8.2"
+  }
+}
